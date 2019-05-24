@@ -23,7 +23,14 @@ namespace ECommerce.Features.Products
 [HttpGet]
     public async Task<IActionResult> Find(string q, string brands, int? minPrice, int? maxPrice, int? minScreen, int? maxScreen, string capacity, string colours, string os, string features)
     {
+      /*
+        NOTE: MRD - Explanation of "var Query" assignment below, (pg. 195). 
+          A combination of new C#6.0 features
+          1) string interpolation $"{<interpolatedExpression>}"    ...and
+          2) null conditional operator "?."  
+      */
       var Query = $"%{q?.ToLower()}%";
+      //var Query = $"%{q.ToLower()}%";  // NOTE: MRD. Testing, this will throw error when search string is empty because 'q' will be null
       var Brands = string.IsNullOrEmpty(brands) ? new List<string>() : brands.Split('|').ToList();
       var Capacity = string.IsNullOrEmpty(capacity) ? new List<int>() : capacity.Split('|').Select(x => Int32.Parse(x.Substring(0, x.IndexOf("GB")))).ToList();
       var Colours = string.IsNullOrEmpty(colours) ? new List<string>() : colours.Split('|').ToList();

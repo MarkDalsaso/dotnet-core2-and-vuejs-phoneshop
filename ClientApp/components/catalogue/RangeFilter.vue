@@ -1,6 +1,6 @@
 <template>
 
-<!-- NOTE: MRD @callback="filter" was not working, @change="filter" instead -->
+<!-- NOTE: MRD @callback="filter" was not working (not sure why), used @change instead -->
   <div class="slider">
     <vue-slider 
       @change="filter"

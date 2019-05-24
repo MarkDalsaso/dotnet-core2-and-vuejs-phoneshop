@@ -43,29 +43,34 @@ export default {
     };
   },
   computed: {
-    sort() {
+    sort () {
       return this.$route.query.sort || 0;
     },
-    sortedProducts() {
+    sortedProducts () {
+      // NOTE: OMG really?  Dam you Stu.  Sort functions where never tested...something like the this is a little.
       switch (this.sort) {
         case 1:
           return this.products.sort((a, b) => {
-            return b.price > a.price;
+            return b.price - a.price;
           });
           break;
         case 2:
           return this.products.sort((a, b) => {
-            return a.name > b.name;
+            if (a.name < b.name) { return -1 }
+            if (a.name > b.name) { return 1 }
+            return 0;
           });
           break;
         case 3:
           return this.products.sort((a, b) => {
-            return b.name > a.name;
+            if (b.name < a.name) { return -1 }
+            if (b.name > a.name) { return 1 }
+            return 0;
           });
           break;
         default:
           return this.products.sort((a, b) => {
-            return a.price > b.price;
+            return a.price - b.price;
           });
       }
     }

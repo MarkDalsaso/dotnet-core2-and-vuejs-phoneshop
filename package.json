@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "lodash": "^4.17.11",
     "nprogress": "^0.2.0",
     "velocity-animate": "^1.5.2",
     "vue-slider-component": "^3.0.31"
