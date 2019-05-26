@@ -5,7 +5,7 @@ This repository is based on the follow-along app (named "ECommerce" or "PhoneSho
 This is not a fork of 
 <a href="https://github.com/sturatcliffe/ASP.NET-Core-2-and-Vue.js" target="_blank">the author's repo</a>. 
 I wanted to work out the details myself, as an exercise in understanding the not so obvious nuances of this 
-solution (web application) stack. Rather, this repo is based on the original download at https://www.packtpub.com/support, 
+solution (web app) stack. Rather, this repo is based on the original download at https://www.packtpub.com/support, 
 and stands alone in that respect.
 
 Most commits are by chapter.
