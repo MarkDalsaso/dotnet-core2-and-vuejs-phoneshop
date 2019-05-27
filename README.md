@@ -14,5 +14,5 @@ Note that the scaffolding used for this project is based on the older, (now arch
 <a href="https://github.com/aspnet/javascriptservices" target="_blank">Microsoft.AspNetCore.SpaTemplates</a>, which is now maintained 
 at <a href="https://github.com/aspnet/AspNetCore" target="_blank">AspNetCore</a>.
 
-Now there are even more options for dotnet scaffolding, Core and Vue.js. I'll try to list them as I finf them
+Now there are even more options for dotnet scaffolding of Core + Vue.js. I'll try to list them as I finf them
 <a href="https://github.com/TrilonIO/aspnetcore-Vue-starter" target="_blank">TrilonIO/aspnetcore-Vue-starter</a> looks super promising.
