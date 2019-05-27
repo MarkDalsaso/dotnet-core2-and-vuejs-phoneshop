@@ -10,6 +10,7 @@ Note that the scaffolding used for this project is based on the older, (now arch
 [Microsoft.AspNetCore.SpaTemplates](https://github.com/aspnet/javascriptservices); now maintained 
 at [AspNetCore](https://github.com/aspnet/AspNetCore).
 
-** Now there are even more options for dotnet scaffolding of Core + Vue.js.
+## Now there are even more options for dotnet scaffolding of Core + Vue.js.
+
 I'll list them as I find them
 * [TrilonIO/aspnetcore-Vue-starter](https://github.com/TrilonIO/aspnetcore-Vue-starter) looks super promising.
