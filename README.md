@@ -9,3 +9,10 @@ solution (web app) stack. Rather, this repo is based on the original download at
 and stands alone in that respect.
 
 Most commits are by chapter.
+
+Note that the scaffolding used for this project is based on the older, (now archived)
+<a href="https://github.com/aspnet/javascriptservices" target="_blank">Microsoft.AspNetCore.SpaTemplates</a>, which is now maintained 
+at <a href="https://github.com/aspnet/AspNetCore" target="_blank">AspNetCore</a>.
+
+Now there are even more options for dotnet scaffolding, Core and Vue.js. I'll try to list them as I finf them
+<a href="https://github.com/TrilonIO/aspnetcore-Vue-starter" target="_blank">TrilonIO/aspnetcore-Vue-starter</a> looks super promising.
